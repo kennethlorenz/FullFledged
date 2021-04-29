@@ -24,6 +24,13 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 10px 35px;
+  position: sticky;
+  top: 0;
+}
+
+#navbar h1 a {
+  text-decoration: none;
+  color: white;
 }
 
 #navbar ul {
@@ -42,4 +49,42 @@ a {
   background: #63ca58;
   color: #333;
   border-radius: 0.5rem;
+}
+
+/* Showcase */
+#showcase {
+  background: url("/img/showcase-bg.jpeg") no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 4rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  line-height: 4rem;
+}
+
+#showcase h1 {
+  font-size: 4rem;
+}
+
+#showcase .btn {
+  color: white;
+  background-color: #63ca58;
+  border-radius: 10px;
+  display: inline-block;
+  line-height: 2rem;
+  padding: 0 2rem;
+  font-size: 15px;
+}
+
+#showcase .btn:hover {
+  background-color: white;
+  color: #63ca58;
 }
