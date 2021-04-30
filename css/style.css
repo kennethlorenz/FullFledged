@@ -12,8 +12,23 @@ a {
   text-decoration: none;
 }
 
-#text-primary {
+.text-primary {
   color: #63ca58;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  padding: 25px 25px;
+  overflow-x: auto;
+}
+
+.l-heading {
+  margin: 25px;
+}
+
+.bg-lightgrey {
+  background-color: #f1f3f1;
 }
 
 /* Navbar */
@@ -23,7 +38,7 @@ a {
   background: #333;
   display: flex;
   justify-content: space-between;
-  padding: 10px 35px;
+  padding: 10px;
   position: sticky;
   top: 0;
 }
@@ -41,8 +56,8 @@ a {
 
 #navbar li a {
   color: white;
-  padding: 0.75rem;
   margin: 0 0.8rem;
+  padding: 10px;
 }
 
 #navbar li a:hover {
@@ -74,7 +89,7 @@ a {
   font-size: 4rem;
 }
 
-#showcase .btn {
+.btn {
   color: white;
   background-color: #63ca58;
   border-radius: 10px;
@@ -84,7 +99,34 @@ a {
   font-size: 15px;
 }
 
-#showcase .btn:hover {
+.btn:hover {
   background-color: white;
   color: #63ca58;
+}
+
+/* What section */
+#what {
+  height: 360px;
+}
+
+#what h2 {
+  text-align: center;
+  font-size: 35px;
+  margin: 15px 0px;
+}
+
+.items {
+  display: flex;
+}
+
+.what-features {
+  text-align: center;
+}
+
+.what-features i {
+  font-size: 35px;
+  margin: 10px;
+  background-color: #63ca58;
+  padding: 25px;
+  border-radius: 9rem;
 }
