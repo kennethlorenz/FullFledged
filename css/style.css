@@ -31,6 +31,9 @@ a {
   background-color: #f1f3f1;
 }
 
+.bg-dark {
+}
+
 /* Navbar */
 
 #navbar {
@@ -106,7 +109,7 @@ a {
 
 /* What section */
 #what {
-  height: 360px;
+  min-height: 360px;
 }
 
 #what h2 {
@@ -129,4 +132,42 @@ a {
   background-color: #63ca58;
   padding: 25px;
   border-radius: 9rem;
+}
+
+/* Who section */
+#who {
+  display: flex;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .who-img {
+  background: url("/img/who-img.jpeg") no-repeat center center/cover;
+}
+
+#who h2 {
+  margin: 25px 10px;
+}
+
+#who .who-text {
+  margin: 25px 25px;
+  line-height: 2rem;
+}
+
+.whotext p {
+  margin: 25px 0;
+}
+
+#who .our-team {
+  margin: 25px 25px;
+  text-align: center;
+}
+
+.our-team ul {
+  list-style: none;
 }
