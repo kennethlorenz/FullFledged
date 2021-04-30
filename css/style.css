@@ -35,6 +35,10 @@ a {
   background-color: #333;
 }
 
+.bg-main {
+  background-color: #63ca58;
+}
+
 /* Navbar */
 
 #navbar {
@@ -116,11 +120,13 @@ a {
 #what h2 {
   text-align: center;
   font-size: 35px;
-  margin: 15px 0px;
+  margin: 25px 0px;
+  margin-bottom: 25px;
 }
 
 .items {
   display: flex;
+  margin: 75px 0px;
 }
 
 .what-features {
@@ -192,4 +198,49 @@ a {
   flex: 1;
   font-size: 50px;
   padding: 25px 0px;
+}
+
+/* Contact us section */
+
+#contact-us {
+  display: flex;
+  line-height: 1.5rem;
+}
+
+#contact-us .contact-section {
+  text-align: left;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+#contact-us .contact-section input {
+  padding: 10px 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-us .contact-section label,
+#contact-us .contact-section input,
+#contact-us .contact-section button {
+  min-width: 100%;
+  margin: 5px;
+}
+
+#contact-us .map {
+  flex: 2;
+}
+
+#contact-us .contact-section button {
+  background-color: #333;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 4px;
+}
+
+/* Footer */
+#index-footer {
+  text-align: center;
+  color: #fff;
+  padding: 10px 10px;
 }
