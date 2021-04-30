@@ -32,6 +32,7 @@ a {
 }
 
 .bg-dark {
+  background-color: #333;
 }
 
 /* Navbar */
@@ -137,9 +138,10 @@ a {
 /* Who section */
 #who {
   display: flex;
-  height: 500px;
   text-align: center;
   margin: auto;
+  color: white;
+  overflow: auto;
 }
 
 #who div {
@@ -155,7 +157,7 @@ a {
 }
 
 #who .who-text {
-  margin: 25px 25px;
+  padding: 25px 25px;
   line-height: 2rem;
 }
 
@@ -170,4 +172,24 @@ a {
 
 .our-team ul {
   list-style: none;
+}
+
+/* Clients section */
+#clients {
+  text-align: center;
+}
+
+#clients h2 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+
+.client-logos {
+  display: flex;
+}
+
+.client-logos div {
+  flex: 1;
+  font-size: 50px;
+  padding: 25px 0px;
 }
