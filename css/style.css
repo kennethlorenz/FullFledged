@@ -23,10 +23,6 @@ a {
   overflow-x: auto;
 }
 
-.l-heading {
-  margin: 25px;
-}
-
 .bg-lightgrey {
   background-color: #f1f3f1;
 }
@@ -49,6 +45,7 @@ a {
   padding: 10px;
   position: sticky;
   top: 0;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 #navbar h1 a {
@@ -113,9 +110,6 @@ a {
 }
 
 /* What section */
-#what {
-  min-height: 360px;
-}
 
 #what h2 {
   text-align: center;
@@ -130,12 +124,13 @@ a {
 }
 
 .what-features {
+  flex: 1;
   text-align: center;
+  padding: 1rem;
 }
 
 .what-features i {
   font-size: 35px;
-  margin: 10px;
   background-color: #63ca58;
   padding: 25px;
   border-radius: 9rem;
@@ -213,7 +208,6 @@ a {
 
 #contact-us .contact-section {
   text-align: left;
-  flex: 1;
   justify-content: center;
   align-items: center;
   padding: 10px 25px;

@@ -1,0 +1,44 @@
+/*  */
+.items {
+  display: block;
+}
+/* Align-icons left */
+
+.what-features {
+  display: flex;
+  text-align: left;
+}
+
+/* Center icon */
+.what-features i {
+  align-self: center;
+  margin-right: 1.2rem;
+}
+
+/* Smartphones 500px */
+@media (max-width: 600px) {
+  #navbar {
+    display: block;
+    align-content: center;
+  }
+
+  #navbar h1 {
+    text-align: center;
+    margin: 10px;
+  }
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  #who .who-img {
+    display: none;
+  }
+
+  #contact-us {
+    display: block;
+  }
+
+  #contact-us .map {
+    height: 500px;
+  }
+}

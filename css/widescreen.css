@@ -1,0 +1,17 @@
+/* Align-icons left */
+
+.what-features {
+  display: flex;
+  text-align: left;
+}
+
+/* Center icon */
+.what-features i {
+  align-self: center;
+  margin-right: 1.2rem;
+}
+
+/* Expand map */
+#contact-us .map {
+  flex: 2;
+}
