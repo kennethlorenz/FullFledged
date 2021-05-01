@@ -57,6 +57,7 @@ a {
   display: flex;
   align-items: center;
   list-style: none;
+  justify-content: space-around;
 }
 
 #navbar li a {
@@ -200,6 +201,7 @@ a {
 #contact-us {
   display: flex;
   line-height: 1.5rem;
+  color: white;
 }
 
 #contact-us div {

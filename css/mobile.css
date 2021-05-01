@@ -16,9 +16,9 @@
 }
 
 /* Smartphones 500px */
-@media (max-width: 500px) {
+@media (max-width: 545px) {
   #navbar {
-    display: block;
+    flex-direction: column;
     align-content: center;
   }
 
@@ -39,6 +39,7 @@
   }
 
   #contact-us .map {
+    border-top: #333 solid 10px;
     height: 500px;
   }
 }
