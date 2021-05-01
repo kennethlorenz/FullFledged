@@ -121,7 +121,7 @@ a {
 
 .items {
   display: flex;
-  margin: 75px 0px;
+  margin: 35px 0px;
 }
 
 .what-features {
@@ -135,6 +135,7 @@ a {
   background-color: #63ca58;
   padding: 25px;
   border-radius: 9rem;
+  margin: 1.2rem;
 }
 
 /* Who section */
