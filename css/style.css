@@ -207,6 +207,10 @@ a {
   line-height: 1.5rem;
 }
 
+#contact-us div {
+  flex: 1;
+}
+
 #contact-us .contact-section {
   text-align: left;
   flex: 1;
@@ -227,15 +231,17 @@ a {
   margin: 5px;
 }
 
-#contact-us .map {
-  flex: 2;
-}
-
 #contact-us .contact-section button {
   background-color: #333;
   color: white;
   padding: 10px 0px;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact-us .contact-section button:hover {
+  background-color: white;
+  color: #333;
 }
 
 /* Footer */
